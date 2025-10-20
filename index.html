@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interiores</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/output.css">
+    <!-- ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css" rel="stylesheet">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <!-- HEADER -->
+    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+        <div class="container flex items-center justify-between h-full mx-auto">
+            <!-- LOGO -->
+            <a href="#">
+                <img src="assets/logo.svg" alt="logotipo">
+            </a>
+            <!-- NAV -->
+            <nav>
+                <!-- NAV MOBILE TRIGGER -->
+                <div class="cursor-pointer lg:hidden" id="nav-trigger-btn">
+                    <i class="text-4xl ri-menu-4-line text-primary"></i>
+                </div>
+                <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t 
+                    top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row 
+                    lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300" id="nav_menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#testimonial">Depoimentos</a></li>
+                    <li><a href="#work">Nosso Trabalho</a></li>
+                    <li><a href="#news">Novidades</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- PAGE WRAPPER -->
+    <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+        <!-- GRID IMG -->
+        <div class="fixed top-0 bottom-0 left-0 right-0 z-10 xl:bg-grid xl:bg-center xl:bg-repeat-y">
+
+        </div>
+        <!-- HERO -->
+        <section href="#hero" id="hero"
+            class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
+            <div class="container flex items-center justify-center h-full mx-auto xl:justify-start">
+                <!-- text -->
+                <div class="hero__text w-[567px] flex flex-col items-center text-center
+                xl:text-left  xl:items-start ">
+                    <h1 class="mb-8 h1">Deixe sua casa ser única</h1>
+                    <p class="mb-8">Há muitas variações de design disponíveis.</p>
+                    <button class="mx-auto btn btn-primary xl:mx-0">Obtenha uma estimativa gratuita
+                        <i class="ri-arrow-right-line text-accent"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEPS -->
+        <section class="steps mt-[80px] xl:mt-[200px] relative z-20">
+            <div class="container mx-auto">
+                <!-- GRID ITEMS -->
+                <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+                    <!-- STEP 1 -->
+                    <div class="text-center steps__step">
+                        <div class="mb-4">
+                            <i class="text-5xl ri-compasses-2-line text-accent"></i>
+                        </div>
+                        <h3 class="mb-5 h3">Planejamento de Projeto</h3>
+                        <p class="max-w-md mx-auto mb-5">Há muitas variações disponíveis das a maioria delas são
+                            customizáveis.
+                        </p>
+                        <a href="#" class="flex justify-center gap-2 font-medium">Saiba Mais
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </a>
+                    </div>
+                    <!-- STEP 2 -->
+                    <div class="text-center steps__step">
+                        <div class="mb-4">
+                            <i class="text-5xl ri-magic-line text-accent"></i>
+                        </div>
+                        <h3 class="mb-5 h3">Obtendo materiais</h3>
+                        <p class="max-w-md mx-auto mb-5">Há muitas variações disponíveis das a maioria delas são
+                            customizáveis.
+                        </p>
+                        <a href="#" class="flex justify-center gap-2 font-medium">Saiba Mais
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </a>
+                    </div>
+                    <!-- STEP 3 -->
+                    <div class="text-center steps__step">
+                        <div class="mb-4">
+                            <i class="text-5xl ri-tools-line text-accent"></i>
+                        </div>
+                        <h3 class="mb-5 h3">Execução do Projeto</h3>
+                        <p class="max-w-md mx-auto mb-5">Há muitas variações disponíveis das a maioria delas são
+                            customizáveis.
+                        </p>
+                        <a href="#" class="flex justify-center gap-2 font-medium">Saiba Mais
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT/SOBRE -->
+        <section href="#about" id="about"
+        class="about mt-[80px] xl:mt-[200px] relative z-20">
+            <div class="container mx-auto xl:px-0">
+                <div class="flex flex-col text-center xl:text-left xl:flex-row 
+                justify-between items-center gap-8 xl:gap-[74px]">
+                    <!-- TEXT -->
+                    <div class=" about__text flex-1 order-2 xl:order-none max-w-xl xl:max-w[410px] flex flex-col 
+                    items-center xl:items-start gap-8">
+                        <h2 class="h2">Nós criamos a arte de viver com estilo</h2>
+                        <p>É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de
+                            uma página
+                            ao observar seus layouts, os pontos de uso
+                            que ela tem um caráter mais ou menos normal.
+                        </p>
+                        <!-- TELEFONE -->
+                        <div class="flex items-center justify-center gap-4 xl:justify-start">
+                            <div
+                                class="bg-accent/15 w-[93px] h-[93px] rounded-full flex justify-center items-center cursor-pointer">
+                                <i class="text-4xl ri-phone-fill text-accent"></i>
+                            </div>
+                            <div class="text-left">
+                                <div class="text-2xl font-bold">16 992331680</div>
+                                <div>Ligue a qualquer hora</div>
+                            </div>
+                        </div>
+                        <!-- BTN -->
+                        <button class="btn btn-primary">Obtenha uma estimativa gratuita
+                            <i class="ri-arrow-right-line text-accent"></i>
+                    </div>
+                    <!-- IMG -->
+                    <div class="about__img order-1 xl:order-none max-w[453px] mx-auto
+                    xl:max-w-none xl:mx-0">
+                        <img src="assets/about/img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section href="#testimonial" id="testimonial"
+         class="testimonial about mt-[80px] xl:mt-[200px] 
+         relative z-20">
+            <div class="container mx-auto  testimonial__bg bg-accent-secondary rounded-[70px] px-6">
+                <div class="flex flex-col items-center pt-[88px] pb-[110px]">
+                    <h2 class="text-center testimonial__title mb-9 h2">O que os clientes dizem</h2>
+                    <!-- SLIDER -->
+                    <div class="w-full">
+                        <div class="testimonial__slider swiper h-[400px]">
+                            <div class="swiper-wrapper">
+                                <!-- SLIDE 1 -->
+                                <div class="swiper-slide">
+                                    <!-- ITEN -->
+                                    <div class="w-full testimonial__item max-w-[450px] h-[340px] bg-white
+                                     rounded-[30px] flex flex-col p-9 justify-center mx-auto">
+                                        <div class="flex items-center gap-4 mb-6">
+                                            <img src="assets/testimonial/01.png" alt="">
+                                            <div>
+                                                <h3 class="h3">Cliente Fulano</h3>
+                                                <div>Ribeirão-Preto SP</div>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            Lorem Ipsum é simplesmente
+                                            texto da indústria tipográfica.
+                                            Ipsum.</p>
+                                    </div>
+                                </div>
+                                <!-- SLIDE 2 -->
+                                <div class="swiper-slide">
+                                    <!-- ITEN -->
+                                    <div class="w-full testimonial__item max-w-[450px] h-[340px] bg-white
+                                     rounded-[30px] flex flex-col p-9 justify-center mx-auto">
+                                        <div class="flex items-center gap-4 mb-6">
+                                            <img src="assets/testimonial/02.png" alt="">
+                                            <div>
+                                                <h3 class="h3">Cliente Beltrano</h3>
+                                                <div>Ribeirão-Preto SP</div>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            Lorem Ipsum é simplesmente
+                                            texto da indústria tipográfica.
+                                            Ipsum.</p>
+                                    </div>
+                                </div>
+                                <!-- SLIDE 3 -->
+                                <div class="swiper-slide">
+                                    <!-- ITEN -->
+                                    <div class="w-full testimonial__item max-w-[450px] h-[340px] bg-white
+                                     rounded-[30px] flex flex-col p-9 justify-center mx-auto">
+                                        <div class="flex items-center gap-4 mb-6">
+                                            <img src="assets/testimonial/03.png" alt="">
+                                            <div>
+                                                <h3 class="h3">Cliente Ciclano</h3>
+                                                <div>Ribeirão-Preto SP</div>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            Lorem Ipsum é simplesmente
+                                            texto da indústria tipográfica.
+                                            Ipsum.</p>
+                                    </div>
+                                </div>
+                                <!-- SLIDE 4 -->
+                                <div class="swiper-slide">
+                                    <!-- ITEN -->
+                                    <div class="w-full testimonial__item max-w-[450px] h-[340px] bg-white
+                                     rounded-[30px] flex flex-col p-9 justify-center mx-auto">
+                                        <div class="flex items-center gap-4 mb-6">
+                                            <img src="assets/testimonial/04.png" alt="">
+                                            <div>
+                                                <h3>Cliente Fulano</h3>
+                                                <div>Ribeirão-Preto SP</div>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            Lorem Ipsum é simplesmente
+                                            texto da indústria tipográfica.
+                                            Ipsum.</p>
+                                    </div>
+                                </div>
+                                <!-- SLIDE 5 -->
+                                <div class="swiper-slide">
+                                    <!-- ITEN -->
+                                    <div class="w-full testimonial__item max-w-[450px] h-[340px] bg-white
+                                     rounded-[30px] flex flex-col p-9 justify-center mx-auto">
+                                        <div class="flex items-center gap-4 mb-6">
+                                            <img src="assets/testimonial/01.png" alt="">
+                                            <div>
+                                                <h3>Cliente Fulano</h3>
+                                                <div>Ribeirão-Preto SP</div>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            Lorem Ipsum é simplesmente
+                                            texto da indústria tipográfica.
+                                            Ipsum.</p>
+                                    </div>
+                                </div>
+                                <!-- SLIDE 6 -->
+                                <div class="swiper-slide">
+                                    <!-- ITEN -->
+                                    <div class="w-full testimonial__item max-w-[450px] h-[340px] bg-white
+                                        rounded-[30px] flex flex-col p-9 justify-center mx-auto">
+                                        <div class="flex items-center gap-4 mb-6">
+                                            <img src="assets/testimonial/01.png" alt="">
+                                            <div>
+                                                <h3>Cliente Fulano</h3>
+                                                <div>Ribeirão-Preto SP</div>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            Lorem Ipsum é simplesmente
+                                            texto da indústria tipográfica.
+                                            Ipsum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Swiper Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BRANDS -->
+        <section class="brands mt-[80px] xl:mt-[150px] relative z-20">
+            <div class="container mx-auto mb-24">
+                <div class="flex flex-col items-center justify-between gap-12 xl:flex-row ">
+                    <img class="brands__img" src="assets/brands/01.svg" alt="">
+                    <img class="brands__img" src="assets/brands/02.svg" alt="">
+                    <img class="brands__img" src="assets/brands/03.svg" alt="">
+                    <img class="brands__img" src="assets/brands/04.svg" alt="">
+                    <img class="brands__img" src="assets/brands/05.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section href="#work" id="work"
+        class="work mt-[80px] xl:mt-[150px] relative z-20">
+            <div class="container mx-auto xl:px-0">
+                <!-- TEXT -->
+                <div class="mb-24 text-center">
+                    <h2 class="mb-4 h2 work__title">Acompanhe nossos projetos</h2>
+                    <p class="max-w-3xl mx-auto work__subtitle">É um fato bem estabelecido que o leitor se distrairá com
+                        o conteúdo legível da página ao observar
+                        seus pontos de layout.</p>
+                </div>
+                <!-- GRID -->
+                <div class="grid grid-cols-1 gap-x-[104px] gap-y-[56px] work__grid xl:grid-cols-2">
+                    <!-- ITEM 1 -->
+                    <div class="w-full m-w-[548px] h-full mx-auto">
+                        <img class="mb-6" src="assets/work/01.png" alt="">
+                        <div class="flex items-center justify-between w-full">
+                            <div>
+                                <h3 class="h3">Cozinha Moderna</h3>
+                                <p>Decoração/Arquitetura</p>
+                            </div>
+                            <button class="bg-accent-secondary bg-accent/20 w-[70px] h-[70px] rounded-full">
+                                <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- ITEM 2 -->
+                    <div class="w-full m-w-[548px] h-full mx-auto">
+                        <img class="mb-6" src="assets/work/02.png" alt="">
+                        <div class="flex items-center justify-between w-full">
+                            <div>
+                                <h3 class="h3">Cozinha Moderna</h3>
+                                <p>Decoração/Arquitetura</p>
+                            </div>
+                            <button class="bg-accent-secondary bg-accent/20 w-[70px] h-[70px] rounded-full">
+                                <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- ITEM 3 -->
+                    <div class="w-full m-w-[548px] h-full mx-auto">
+                        <img class="mb-6" src="assets/work/03.png" alt="">
+                        <div class="flex items-center justify-between w-full">
+                            <div>
+                                <h3 class="h3">Cozinha Moderna</h3>
+                                <p>Decoração/Arquitetura</p>
+                            </div>
+                            <button class="bg-accent-secondary bg-accent/20 w-[70px] h-[70px] rounded-full">
+                                <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- ITEM 4 -->
+                    <div class="w-full m-w-[548px] h-full mx-auto">
+                        <img class="mb-6" src="assets/work/04.png" alt="">
+                        <div class="flex items-center justify-between w-full">
+                            <div>
+                                <h3 class="h3">Cozinha Moderna</h3>
+                                <p>Decoração/Arquitetura</p>
+                            </div>
+                            <button class="bg-accent-secondary bg-accent/20 w-[70px] h-[70px] rounded-full">
+                                <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATUS -->
+        <section class="stats mt-[80px] xl:mt-[150px] relative z-20 bg-accent-secondary py-[80px] xl-py-[150px]">
+            <div class="container mx-auto">
+                <!-- GRID -->
+                <div class="grid grid-cols-1 gap-12 xl:grid-cols-4">
+                    <!-- GRID ITEM 1-->
+                    <div class="text-center stats__item xl:border-r-2 xl:border-accent">
+                        <h3 class="h1 font-primary text-accent">12</h3>
+                        <p>Anos de Experiência</p>
+                    </div>
+                    <!-- GRID ITEM 2-->
+                    <div class="text-center stat__item xl:border-r-2 xl:border-accent">
+                        <h3 class="h1 font-primary text-accent">85</h3>
+                        <p>Projetos Concluidos</p>
+                    </div>
+                    <!-- GRID ITEM 3-->
+                    <div class="text-center stat__item xl:border-r-2 xl:border-accent">
+                        <h3 class="h1 font-primary text-accent">15</h3>
+                        <p>Projetos Ativos</p>
+                    </div>
+                    <!-- GRID ITEM 4-->
+                    <div class="text-center stat__item ">
+                        <h3 class="h1 font-primary text-accent">95</h3>
+                        <p>Clientes Satisfeitos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWS -->
+        <section href="#news" id="news" 
+        class="news mt-[80px] xl:mt-[150px] relative z-20">
+            <div class="container px-0 mx-auto">
+                <!-- TEXT -->
+                <div class="max-w-[810px] mx-auto mb-[52px] text-center">
+                    <h2 class="mb-3 h2 news__title">Artigos e Novidades</h2>
+                    <p class="news__subtitle">É um fato estabelecido há muito tempo que um leitor será distraído pelo
+                        conteúdo legível de uma página ao observar seus layouts e os pontos de uso.</p>
+                </div>
+                <!-- GRID -->
+                <div class="grid grid-cols-1 gap-[27px] news__grid xl:grid-cols-3">
+                    <!-- ITEM 1-->
+                    <div class="w-full news__item max-w-[382px] h-[520px] border border-primary/20 
+                     rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursor-pointer
+                     mx-auto xl:mx-0">
+                        <img class="mb-5" src="assets/news/01.png" alt="">
+                        <div class="flex flex-col gap-[30px]">
+                            <h3 class="h3">Vamos obter soluções para obras de construção civil</h3>
+                            <div class="flex items-center justify-between">
+                                <p class="text-base">21 de Maio de 2025</p>
+                                <button
+                                    class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
+                                    <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ITEM 2-->
+                    <div class="w-full news__item max-w-[382px] h-[520px] border border-primary/20 
+                     rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursor-pointer
+                     mx-auto xl:mx-0">
+                        <img class="mb-5" src="assets/news/02.png" alt="">
+                        <div class="flex flex-col gap-[30px]">
+                            <h3 class="h3">Vamos obter soluções para obras de construção civil</h3>
+                            <div class="flex items-center justify-between">
+                                <p class="text-base">21 de Maio de 2025</p>
+                                <button
+                                    class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
+                                    <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ITEM 3-->
+                    <div class="w-full news__item max-w-[382px] h-[520px] border border-primary/20 
+                     rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursor-pointer
+                     mx-auto xl:mx-0">
+                        <img class="mb-5" src="assets/news/03.png" alt="">
+                        <div class="flex flex-col gap-[30px]">
+                            <h3 class="h3">Vamos obter soluções para obras de construção civil</h3>
+                            <div class="flex items-center justify-between">
+                                <p class="text-base">21 de Maio de 2025</p>
+                                <button
+                                    class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
+                                    <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section href="#contact" id="contact"
+        class="contact mt-[80px] xl:mt-[150px] relative z-20">
+            <div class="contact_container container mx-auto sm:rounded-[70px]  bg-primary 
+           py-[80px]">
+                <div class="contact__text mx-w-[640px] mx-auto text-center">
+                    <h2 class="mb-4 text-white h2">Quer se juntar à Interiores?</h2>
+                    <p class="max-w-sm mx-auto mb-8 text-white xl:max-w-none">
+                        É um fato estabelecido há muito tempo que você estará distraído.
+                    </p>
+                    <button class="mx-auto btn btn-accent">
+                        Entre em contato conosco <i class="ri-arrow-right-line text-primary"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer mt-[80px] xl:mt-[150px] relative z-20">
+            <div class="container px-0 mx-auto">
+                <div class="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px]">
+                    <div class="w-full  footer__item max-w-[400px] mb-8 text-center
+                    xl:text-left mx-auto">
+                        <!-- logo -->
+                        <a class="flex justify-center mb-8 xl:justify-start" href="#">
+                            <img src="assets/logo.svg" alt="">
+                        </a>
+                        <p class="mb-8 text-xl">
+                            É um fato estabelecido há muito tempo que você estará distraído.
+                        </p>
+                        <!-- SOCIAL -->
+                        <ul class="text-primary flex justify-center gap-[54px] mb-8 xl:justify-start">
+                            <li>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ri-linkedin-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="flex flex-col flex-1 gap-12 text-center xl:flex-row xl:text-left
+                    xl:gap-[100px] xl:justify-end">
+                        <div class="footer__item">
+                            <h3 class="mb-3 h3">Pages</h3>
+                            <ul class="flex flex-col gap-4">
+                                <li><a href="#">Sobre Nós</a></li>
+                                <li><a href="#">Depoimentos</a></li>
+                                <li><a href="#">Nosso Trabalho</a></li>
+                                <li><a href="#">Novidades</a></li>
+                                <li><a href="#">Contatos</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h3 class="mb-3 h3">Serviços</h3>
+                            <ul class="flex flex-col gap-4">
+                                <li><a href="#">Cozinha</a></li>
+                                <li><a href="#">Área de Lazer</a></li>
+                                <li><a href="#">Banheiro</a></li>
+                                <li><a href="#">Quarto</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item max-w-[260px] mx-auto xl:mx-0">
+                            <h3 class="mb-3 h3">Contato</h3>
+                            <div class="flex flex-col gap-6 text-[20px]">
+                                <p>Avenida Plínio, Ribeirão Preto - SP</p>
+                                <p>emailcontato@email.com</p>
+                                <p>16 992331680</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- COPYRIGHT -->
+            <p class="py-10 text-lg text-center bg-white footer__copyright xl:border-t">Copyright &copy; Interiores
+                2025. Todos os direitos reservados.</p>
+        </footer>
+        <!-- DIV TEMPORARIA -->
+        <!-- <div class="h-[3000px]"></div> -->
+    </main>
+
+
+    <!-- SCROLL REVEOL JS -->
+    <script src="js/scrollreveal.min.js"></script>
+    <!-- SWIPER -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
