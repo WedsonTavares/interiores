@@ -1,0 +1,16 @@
+node_modules/
+dist/
+output.css
+.env
+npm-debug.log*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tailwind / build artifacts
+*.css.map
+
+# Temp files
+*.tmp
+*.swp
