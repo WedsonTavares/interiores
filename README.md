@@ -28,7 +28,6 @@ Este projeto é uma landing page para um portfólio de interiores.
 
 Abra `index.html` diretamente no navegador ou rode um servidor estático local para testar.
 
-Se quiser publicar, recomendo usar o GitHub Pages (branch `main` ou `gh-pages`).
 
 
 Visualizar Demo: <a href="https://leafy-salamander-302e1a.netlify.app" target="_blank" rel="noopener">https://leafy-salamander-302e1a.netlify.app</a>
