@@ -7,7 +7,7 @@ Este projeto é uma landing page para um portfólio de interiores.
 <div align="center">
 	<a href="https://leafy-salamander-302e1a.netlify.app" target="_blank" rel="noopener"><strong>➥ Ver Demonstração</strong></a>
 </div>
----
+
 
 ## Sumário
 
