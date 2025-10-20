@@ -1,7 +1,7 @@
 <h2 align="center">Interiores — Landing Page</h2>
 
 Página de demonstração totalmente responsiva para um portfólio de design de interiores. Desenvolvida com HTML, CSS e JavaScript.
-Este projeto é uma landing page para um portfólio de interiores.
+Este projeto é uma landing page para um estudos.
 
 
 <div align="center">
