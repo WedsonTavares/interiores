@@ -5,7 +5,7 @@ Este projeto é uma landing page para um portfólio de interiores.
 
 
 <div align="center">
-	<a href="https://wedsontavares.github.io/interiores/" target="_blank" rel="noopener"><strong>➥ Ver Demonstração</strong></a>
+	<a href="leafy-salamander-302e1a.netlify.app" target="_blank" rel="noopener"><strong>➥ Ver Demonstração</strong></a>
 </div>
 ---
 
@@ -31,7 +31,7 @@ Abra `index.html` diretamente no navegador ou rode um servidor estático local p
 Se quiser publicar, recomendo usar o GitHub Pages (branch `main` ou `gh-pages`).
 
 
-Visualizar Demo: <a href="https://wedsontavares.github.io/interiores/" target="_blank" rel="noopener">https://wedsontavares.github.io/interiores/</a>
+Visualizar Demo: <a href="leafy-salamander-302e1a.netlify.app" target="_blank" rel="noopener">leafy-salamander-302e1a.netlify.app</a>
 
 ---
 
