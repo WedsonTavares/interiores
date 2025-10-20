@@ -57,16 +57,15 @@ As imagens de demonstração estão em `assets/` e podem ser usadas no README se
 1. Clone o repositório:
 
 ```bash
-git clone <URL-DO-SEU-REPO>
+git clone https://github.com/WedsonTavares/interiores.git
 cd interiores
 ```
 
+---
+
 2. Abra `index.html` no navegador ou rode um servidor estático (recomendado):
 
-```bash
-python3 -m http.server 8000
-# abra http://localhost:8000
-```
+---
 
 3. Para desenvolver, edite `index.html`, `css/input.css` e `js/main.js`.
 
@@ -94,7 +93,7 @@ Se precisar trocar a URL do remoto:
 
 ```bash
 git remote remove origin
-git remote add origin https://github.com/SEU_USUARIO/SEU_REPO.git
+git remote add origin https://github.com/WedsonTavares/interiores.git
 git push -u origin main
 ```
 
